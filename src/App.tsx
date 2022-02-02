@@ -1,10 +1,9 @@
-
-
 import { SideBar } from './components/SideBar';
 import { Content } from './components/Content';
+import { MoviesProvider } from './MoviesContext';
 
 import './styles/global.scss';
-import { MoviesProvider } from './MoviesContext';
+
 
 export function App() {
   return (
